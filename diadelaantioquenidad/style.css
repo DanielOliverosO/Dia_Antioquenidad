@@ -1,0 +1,143 @@
+/* Add styles here */
+
+/* CSS Variables for Colors */
+:root {
+ --primary-color: #007a3d; /* Green from the Antioquia flag */
+ --secondary-color: #f0c419; /* Richer yellow from the Antioquia flag */
+ --accent-color: #004f2a; /* Darker green for buttons */
+ --background-color: #e0e5e9; /* Softer background */
+ --text-color: #4a4a4a; /* Darker text color for better contrast */
+ --white-color: #fff;
+}
+
+/* CSS Variables for Spacing */
+:root {
+ --spacing-small: 10px;
+ --spacing-medium: 20px;
+ --spacing-large: 30px;
+ --spacing-xlarge: 40px;
+}
+
+/* General Styles */
+body {
+    font-family: 'Georgia', serif; /* A more traditional font with regional feel */
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: var(--spacing-large) 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-buttons {
+ display: flex;
+ justify-content: center; /* Center buttons horizontally */
+ flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+ margin: var(--spacing-medium) 0; /* Add some margin around the nav buttons */
+    position: relative; /* Add positioning for z-index */
+    z-index: 10; /* Ensure the navigation container is above other elements */
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: var(--spacing-small) 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styles for the buttons inside the button-container */
+.nav-buttons .nav-button { /* Changed selector to match HTML structure */
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    padding: 15px 30px; /* More padding for larger buttons */
+    margin: var(--spacing-small);
+    border: none; /* Remove default button border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Indicate it's clickable */
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Smooth transitions */
+ text-decoration: none; /* Remove underline from links */
+ display: inline-block; /* Allow padding and margin */
+    position: relative; /* Add positioning for z-index */
+    z-index: 11; /* Ensure the individual buttons are above the container and other elements */
+}
+
+
+/* Icons (Example using Font Awesome - you would need to link the library) */
+/*
+.icon {
+    margin-right: 5px;
+}
+*/
+
+/* Adding a simple noise texture to the body */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    padding: var(--spacing-xlarge) var(--spacing-medium);
+    margin: var(--spacing-medium) auto;
+    max-width: 900px;
+    background-color: var(--white-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    border-radius: 12px; /* More rounded corners */
+}
+
+section h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    border-bottom: 3px solid var(--secondary-color);
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    margin-bottom: var(--spacing-medium);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Shadow on top */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-buttons .nav-button { /* Changed selector to match HTML structure */
+        display: block;
+        margin: var(--spacing-small) 0;
+    }
+}
+
+/* Button Hover Effect */
+.nav-buttons .nav-button:hover { /* Changed selector to match HTML structure */
+ background-color: var(--primary-color); /* Lighter green on hover */
+ transform: translateY(-3px); /* Slight lift effect on hover */
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Button Active Effect */
+.nav-buttons .nav-button:active { /* Changed selector to match HTML structure */
+ transform: translateY(1px); /* Slight press effect when clicked */
+}
