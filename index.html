@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antioqueñidad y La Pintada: Un Legado de Orgullo y Tradición</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --terracota: #CD853F;
+            --naranja-quemado: #CC5500;
+            --verde-musgo: #8FBC8F;
+            --verde-esmeralda: #50C878;
+            --ocre: #CC7722;
+            --amarillo-vibrante: #FFD700;
+            --marron-oscuro: #654321;
+            --crema: #F5F5DC;
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--crema) 0%, #FDF5E6 100%);
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .titulo-principal {
+            font-family: 'Playfair Display', serif;
+            color: var(--marron-oscuro);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .seccion-header {
+            font-family: 'Playfair Display', serif;
+            color: var(--marron-oscuro);
+            border-bottom: 3px solid var(--terracota);
+        }
+        
+        .card-cultural {
+            background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(245,245,220,0.8) 100%);
+            border-left: 5px solid var(--terracota);
+            box-shadow: 0 8px 25px rgba(205,133,63,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card-cultural:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(205,133,63,0.25);
+        }
+        
+        .icono-cultural {
+            color: var(--terracota);
+            font-size: 2.5rem;
+        }
+        
+        .galeria-img {
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        
+        .galeria-img:hover {
+            transform: scale(1.05);
+        }
+        
+        .patron-paisa {
+            background-image: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(205,133,63,0.1) 10px,
+                rgba(205,133,63,0.1) 20px
+            );
+        }
+        
+        .conclusion-text {
+            color: #000000 !important;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header Principal -->
+    <header class="patron-paisa py-16 text-center" style="background-image: url('https://www.puebliandoporantioquia.com.co/wp-content/uploads/2025/03/PANORAMICA-LA-PINTADA-B-2-1.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto px-4">
+            <h1 class="titulo-principal text-5xl md:text-7xl font-bold mb-6" style="color: white;">
+                Antioqueñidad y La Pintada
+            </h1>
+            <p class="titulo-principal text-2xl md:text-3xl font-normal mb-8" style="color: white;">Un Legado de Orgullo y Tradición</p>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-4 py-12">
+        <!-- Sección de Bienvenida -->
+        <section class="mb-16">
+            <div class="card-cultural rounded-xl p-8 mb-8">
+                <div class="text-center mb-8">
+                    <i class="icono-cultural fas fa-handshake mb-4"></i>
+                    <h2 class="seccion-header text-3xl font-bold pb-2 mb-6">Bienvenidos a Nuestra Herencia</h2>
+                </div>
+                <p class="text-lg leading-relaxed text-gray-700 text-center max-w-4xl mx-auto">
+                    El Día de la Antioqueñidad es una celebración de la identidad paisa que nos une como pueblo. 
+                    En este recorrido digital, descubriremos cómo el municipio de La Pintada es un ejemplo vibrante 
+                    y auténtico de nuestra cultura. Te invitamos a explorar esta conexión profunda entre tradición, 
+                    historia y orgullo antioqueño, donde cada elemento cuenta la historia de nuestra tierra y nuestra gente.
+                </p>
+            </div>
+        </section>
+
+        <!-- Día de la Antioqueñidad -->
+        <section class="mb-16">
+            <h2 class="seccion-header text-4xl font-bold pb-3 mb-8 text-center">
+                <i class="fas fa-flag-checkered mr-3" style="color: var(--naranja-quemado);"></i>
+                Día de la Antioqueñidad: Celebrando Nuestra Raíz
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div class="card-cultural rounded-xl p-6">
+                    <h3 class="text-2xl font-bold mb-4" style="color: var(--marron-oscuro);">
+                        <i class="fas fa-calendar-day mr-2" style="color: var(--terracota);"></i>
+                        Una Fecha Histórica
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        El Día de la Antioqueñidad se conmemora cada 11 de agosto, fecha que rinde homenaje a la identidad, 
+                        el orgullo y las tradiciones del pueblo antioqueño. Su origen se remonta al 11 de agosto de 1813, 
+                        cuando Juan del Corral proclamó la independencia absoluta de la provincia de Antioquia respecto a España.
+                    </p>
+                </div>
+                
+                <div class="card-cultural rounded-xl p-6">
+                    <h3 class="text-2xl font-bold mb-4" style="color: var(--marron-oscuro);">
+                        <i class="fas fa-users mr-2" style="color: var(--verde-esmeralda);"></i>
+                        La Idiosincrasia Paisa
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        La significancia de este día radica en resaltar el legado histórico de libertad y soberanía. 
+                        Se enfatiza la "antioqueñidad" como un sentimiento de identidad mestiza, innovadora y arraigada 
+                        en la colonización y la arriería.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Manifestaciones Culturales -->
+            <div class="card-cultural rounded-xl p-8">
+                <h3 class="text-3xl font-bold mb-6 text-center" style="color: var(--marron-oscuro);">
+                    <i class="fas fa-music mr-3" style="color: var(--amarillo-vibrante);"></i>
+                    Manifestaciones Culturales
+                </h3>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center p-4">
+                        <div class="mb-4">
+                            <img src="https://nuevalengua.com/wp-content/uploads/2023/04/Atuendo-tipico-paisa-Nueva-Lengua3.jpeg" 
+                                 alt="Traje típico paisa" class="galeria-img w-full h-48 object-cover mx-auto">
+                        </div>
+                        <h4 class="font-bold text-lg mb-2" style="color: var(--marron-oscuro);">Música y Folclor</h4>
+                        <p class="text-sm text-gray-600">Trova paisa, bambuco, pasillo y carrilera son pilares de nuestra tradición oral.</p>
+                    </div>
+                    
+                    <div class="text-center p-4">
+                        <div class="mb-4">
+                            <img src="https://c8.alamy.com/comp/2FKCTMK/authentic-and-traditional-carriel-and-antioquia-hat-2FKCTMK.jpg" 
+                                 alt="Carriel y sombrero aguadeño" class="galeria-img w-full h-48 object-cover mx-auto">
+                        </div>
+                        <h4 class="font-bold text-lg mb-2" style="color: var(--marron-oscuro);">Símbolos Tradicionales</h4>
+                        <p class="text-sm text-gray-600">El carriel, el sombrero aguadeño y la ruana son emblemas de nuestra identidad.</p>
+                    </div>
+                    
+                    <div class="text-center p-4">
+                        <div class="mb-4">
+                            <img src="https://live.staticflickr.com/7041/6820584220_b3719b45ac_b.jpg" 
+                                 alt="Arrieros con mulas" class="galeria-img w-full h-48 object-cover mx-auto">
+                        </div>
+                        <h4 class="font-bold text-lg mb-2" style="color: var(--marron-oscuro);">Tradición Arriera</h4>
+                        <p class="text-sm text-gray-600">Los arrieros construyeron caminos y transmitieron valores de pujanza y esfuerzo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- La Pintada -->
+        <section class="mb-16">
+            <h2 class="seccion-header text-4xl font-bold pb-3 mb-8 text-center">
+                <i class="fas fa-door-open mr-3" style="color: var(--verde-esmeralda);"></i>
+                La Pintada: La Puerta de Antioquia
+            </h2>
+            
+            <div class="grid lg:grid-cols-2 gap-8 mb-8">
+                <div class="card-cultural rounded-xl p-6">
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        La Pintada es un municipio ubicado en la subregión del Suroeste de Antioquia, a orillas del río Cauca. 
+                        Conocido como "la Puerta de Antioquia", se destaca por su posición estratégica y su potencial turístico. 
+                        Es uno de los municipios más jóvenes de Antioquia, erigido oficialmente el 20 de marzo de 1997.
+                    </p>
+                    
+                    <h3 class="text-2xl font-bold mb-4" style="color: var(--marron-oscuro);">
+                        <i class="fas fa-history mr-2" style="color: var(--terracota);"></i>
+                        Un Poco de Historia
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        La zona fue habitada originalmente por indígenas como los Tahamíes y los Quiramas. Su nombre deriva del 
+                        Cacique Pipintá. Se consolidó como un punto clave para el comercio y la arriería, especialmente con la 
+                        llegada del ferrocarril en 1933 y la Troncal de Occidente en 1938.
+                    </p>
+                </div>
+                
+                <div class="space-y-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Puentes_en_La_Pintada_02.jpg" 
+                         alt="Puentes en La Pintada" class="galeria-img w-full h-40 object-cover">
+                    <img src="https://seecolombia.travel/blog/wp-content/uploads/2021/08/la-pintada-antioquia-more-than-just-pools-and-farms-4.jpg" 
+                         alt="Paisaje de La Pintada" class="galeria-img w-full h-40 object-cover">
+                </div>
+            </div>
+
+            <!-- Cultura y Atractivos -->
+            <div class="card-cultural rounded-xl p-8">
+                <h3 class="text-3xl font-bold mb-6 text-center" style="color: var(--marron-oscuro);">
+                    <i class="fas fa-map-marked-alt mr-3" style="color: var(--verde-esmeralda);"></i>
+                    Cultura y Atractivos
+                </h3>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold text-xl mb-3" style="color: var(--terracota);">
+                            <i class="fas fa-seedling mr-2"></i>Economía Diversa
+                        </h4>
+                        <p class="text-gray-700 mb-4">
+                            La base económica incluye agricultura (cítricos, cacao), ganadería, minería y turismo. 
+                            El Festival Internacional de Globos es un evento destacado que atrae visitantes de toda la región.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-bold text-xl mb-3" style="color: var(--terracota);">
+                            <i class="fas fa-camera mr-2"></i>Atracciones Principales
+                        </h4>
+                        <p class="text-gray-700 mb-4">
+                            El río Cauca y sus puentes, la Iglesia de Santa Cecilia, el Cerro de Cristo Rey con vista panorámica, 
+                            y senderos de mitología indígena que celebran leyendas como La Madremonte y el Cacique Pipintá.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="mt-6">
+                    <img src="https://i.pinimg.com/1200x/8d/a8/27/8da8278b1e558706e00ed8e3679c84db.jpg" 
+                         alt="Vista panorámica de La Pintada" class="galeria-img w-full h-64 object-cover mx-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Personajes Ilustres -->
+        <section class="mb-16">
+            <h2 class="seccion-header text-4xl font-bold pb-3 mb-8 text-center">
+                <i class="fas fa-star mr-3" style="color: var(--amarillo-vibrante);"></i>
+                Personajes que Forjaron la Identidad
+            </h2>
+            
+            <div class="card-cultural rounded-xl p-8">
+                <p class="text-lg text-gray-700 text-center mb-8 max-w-4xl mx-auto">
+                    La cultura paisa ha sido construida por personajes históricos y anónimos que, con su esfuerzo, 
+                    dejaron un legado de innovación y resiliencia, valores que se celebran en el Día de la Antioqueñidad.
+                </p>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Líderes de la Independencia -->
+                    <div class="bg-white rounded-lg p-6 shadow-lg">
+                        <div class="text-center mb-4">
+                            <img src="https://orientese.co/wp-content/uploads/2015/12/Juan-del-Corral-226x300.jpg" 
+                                 alt="Escultura de Fernando Botero" class="w-16 h-16 object-cover rounded-full mx-auto mb-3">
+                            <h4 class="font-bold text-lg" style="color: var(--marron-oscuro);">Juan del Corral</h4>
+                        </div>
+                        <p class="text-sm text-gray-600 text-center">
+                            Proclamó la independencia de la provincia de Antioquia en 1813, un hito en la historia colombiana.
+                        </p>
+                    </div>
+                    
+                    <!-- Fernando Botero -->
+                    <div class="bg-white rounded-lg p-6 shadow-lg">
+                        <div class="text-center mb-4">
+                            <img src="https://news.artnet.com/app/news-upload/2019/12/Uccello_3-1024x1020.jpg" 
+                                 alt="Escultura de Fernando Botero" class="w-16 h-16 object-cover rounded-full mx-auto mb-3">
+                            <h4 class="font-bold text-lg" style="color: var(--marron-oscuro);">Fernando Botero</h4>
+                        </div>
+                        <p class="text-sm text-gray-600 text-center">
+                            Reconocido pintor y escultor mundial por sus figuras voluminosas que han llevado el arte colombiano al mundo.
+                        </p>
+                    </div>
+                    
+                    <!-- Tomás Carrasquilla -->
+                    <div class="bg-white rounded-lg p-6 shadow-lg">
+                        <div class="text-center mb-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Tomás_Carrasquilla_by_Benjamín_de_la_Calle.jpg" 
+                                 alt="Escultura de Fernando Botero" class="w-16 h-16 object-cover rounded-full mx-auto mb-3">
+                            <h4 class="font-bold text-lg" style="color: var(--marron-oscuro);">Tomás Carrasquilla</h4>
+                        </div>
+                        <p class="text-sm text-gray-600 text-center">
+                            Escritor antioqueño que narró con maestría las costumbres paisas en sus obras literarias.
+                        </p>
+                    </div>
+                    
+                    <!-- Débora Arango -->
+                    <div class="bg-white rounded-lg p-6 shadow-lg">
+                        <div class="text-center mb-4">
+                            <img src="https://2.bp.blogspot.com/-35ZEd9B2adw/V0dAWufNZdI/AAAAAAAAJT8/tT1GUqSFeS45fShUN3Wdz-1SK7KgJIz4QCLcB/s1600/Deborah-Arango.jpg" 
+                                 alt="Escultura de Fernando Botero" class="w-16 h-16 object-cover rounded-full mx-auto mb-3">
+                            <h4 class="font-bold text-lg" style="color: var(--marron-oscuro);">Débora Arango</h4>
+                        </div>
+                        <p class="text-sm text-gray-600 text-center">
+                            Pintora vanguardista que rompió barreras sociales y artísticas en el arte colombiano.
+                        </p>
+                    </div>
+                    
+                    <!-- Arrieros Anónimos -->
+                    <div class="bg-white rounded-lg p-6 shadow-lg">
+                        <div class="text-center mb-4">
+                            <img src="https://www.eje21.com.co/site/wp-content/uploads/2022/01/arrieros.jpg" 
+                                 alt="Arrieros tradicionales" class="w-16 h-16 object-cover rounded-full mx-auto mb-3">
+                            <h4 class="font-bold text-lg" style="color: var(--marron-oscuro);">Arrieros Anónimos</h4>
+                        </div>
+                        <p class="text-sm text-gray-600 text-center">
+                            Héroes culturales que construyeron caminos y transmitieron valores de pujanza simbolizados en el carriel.
+                        </p>
+                    </div>
+                    
+                    <!-- José María Gómez -->
+                    <div class="bg-white rounded-lg p-6 shadow-lg">
+                        <div class="text-center mb-4">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/José_María_Gómez_Ángel_Pbro.jpg" 
+                                 alt="Escultura de Fernando Botero" class="w-16 h-16 object-cover rounded-full mx-auto mb-3">
+                            <h4 class="font-bold text-lg" style="color: var(--marron-oscuro);">José María Gómez</h4>
+                        </div>
+                        <p class="text-sm text-gray-600 text-center">
+                            Uno de los fundadores que promovió el asentamiento organizado del pueblo de La Pintada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gastronomía -->
+        <section class="mb-16">
+            <h2 class="seccion-header text-4xl font-bold pb-3 mb-8 text-center">
+                <i class="fas fa-utensils mr-3" style="color: var(--naranja-quemado);"></i>
+                Sabores que Conectan con la Tierra
+            </h2>
+            
+            <div class="card-cultural rounded-xl p-8">
+                <p class="text-lg text-gray-700 text-center mb-8 max-w-4xl mx-auto">
+                    La comida es una de las mayores expresiones de la identidad antioqueña, un reflejo del mestizaje y la riqueza 
+                    de la tierra. La gastronomía paisa fusiona influencias precolombinas, africanas, asiáticas y españolas.
+                </p>
+                
+                <!-- Platos Básicos de la Región -->
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold mb-6 text-center" style="color: var(--marron-oscuro);">
+                        <i class="fas fa-home mr-2" style="color: var(--terracota);"></i>
+                        Básicos de la Región
+                    </h3>
+                    
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Bandeja Paisa -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <img src="https://abuelascounter.com/wp-content/uploads/2022/10/Bandeja-Paisa.jpeg" 
+                                 alt="Bandeja Paisa" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h4 class="font-bold text-lg mb-2" style="color: var(--marron-oscuro);">Bandeja Paisa</h4>
+                                <p class="text-sm text-gray-600">
+                                    El plato emblemático con fríjoles, arroz, carne molida, chorizo, chicharrón, huevo frito, 
+                                    plátano, aguacate y arepa. Símbolo de abundancia agrícola y mestizaje.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Arepa Antioqueña -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <img src="https://colombia.co/sites/default/files/marca-pais/media/images/arepas-colombianas.webp" 
+                                 alt="Arepa Antioqueña" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h4 class="font-bold text-lg mb-2" style="color: var(--marron-oscuro);">Arepa Antioqueña</h4>
+                                <p class="text-sm text-gray-600">
+                                    Base de la alimentación diaria, hecha de maíz. Acompaña todas las comidas y es símbolo 
+                                    de la tradición alimentaria paisa.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Sancocho Antioqueño -->
+                        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                            <img src="https://www.paulinacocina.net/wp-content/uploads/2023/11/sopa-colombiana-Paulina-Cocina-Recetas-800x450.jpg.webp" 
+                                 alt="Sancocho Antioqueño" class="w-full h-48 object-cover">
+                            <div class="p-4">
+                                <h4 class="font-bold text-lg mb-2" style="color: var(--marron-oscuro);">Sancocho Antioqueño</h4>
+                                <p class="text-sm text-gray-600">
+                                    Sopa espesa con gallina o res, yuca, plátano y mazorca. Plato que une a la familia 
+                                    los domingos y celebraciones especiales.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sabores del Río y del Calor -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-center" style="color: var(--marron-oscuro);">
+                        <i class="fas fa-water mr-2" style="color: var(--verde-esmeralda);"></i>
+                        Sabores del Río y del Calor (La Pintada)
+                    </h3>
+                    
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <div class="bg-white rounded-lg p-4 text-center shadow-md">
+                            <i class="fas fa-fish text-3xl mb-3" style="color: var(--verde-esmeralda);"></i>
+                            <h5 class="font-bold mb-2" style="color: var(--marron-oscuro);">Pescado del Río Cauca</h5>
+                            <p class="text-xs text-gray-600">Bocachico y bagre fritos o en sudado</p>
+                        </div>
+                        
+                        <div class="bg-white rounded-lg p-4 text-center shadow-md">
+                            <i class="fas fa-bowl-food text-3xl mb-3" style="color: var(--terracota);"></i>
+                            <h5 class="font-bold mb-2" style="color: var(--marron-oscuro);">Sopa de Pescado</h5>
+                            <p class="text-xs text-gray-600">Plato tradicional de la región ribereña</p>
+                        </div>
+                        
+                        <div class="bg-white rounded-lg p-4 text-center shadow-md">
+                            <i class="fas fa-glass-water text-3xl mb-3" style="color: var(--amarillo-vibrante);"></i>
+                            <h5 class="font-bold mb-2" style="color: var(--marron-oscuro);">Champús y Refrescos</h5>
+                            <p class="text-xs text-gray-600">Bebidas refrescantes de caña típicas del clima cálido</p>
+                        </div>
+                        
+                        <div class="bg-white rounded-lg p-4 text-center shadow-md">
+                            <i class="fas fa-apple-alt text-3xl mb-3" style="color: var(--naranja-quemado);"></i>
+                            <h5 class="font-bold mb-2" style="color: var(--marron-oscuro);">Dulces Caseros</h5>
+                            <p class="text-xs text-gray-600">Hechos con frutas locales como guayaba y mango</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusión -->
+        <section class="mb-16">
+            <div class="card-cultural rounded-xl p-8 text-center">
+                <h2 class="seccion-header text-4xl font-bold pb-3 mb-8">
+                    <i class="fas fa-heart mr-3" style="color: var(--naranja-quemado);"></i>
+                    La Antioqueñidad Vive Aquí
+                </h2>
+                
+                <div class="max-w-4xl mx-auto">
+                    <img src="https://lentezoom.com/wp-content/uploads/2021/10/20-fotos-parque-arrieros-08.jpg.webp" 
+                         alt="Tradición arriera" class="galeria-img w-full h-64 object-cover mb-8 mx-auto">
+                    
+                    <p class="conclusion-text text-lg leading-relaxed font-medium">
+                        La Pintada, con su historia de arriería, su ubicación estratégica y sus costumbres, es un ejemplo 
+                        perfecto de lo que se celebra en el Día de la Antioqueñidad. Los valores, la comida, la música y las 
+                        tradiciones de este municipio son un reflejo de la identidad paisa, demostrando que el orgullo antioqueño 
+                        es un mosaico cultural que se transmite de generación en generación.
+                    </p>
+                    
+                    <div class="mt-8 flex justify-center items-center space-x-6">
+                        <div class="text-center">
+                            <i class="fas fa-flag text-4xl mb-2" style="color: var(--naranja-quemado);"></i>
+                            <p class="conclusion-text text-sm font-semibold">Orgullo</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-handshake text-4xl mb-2" style="color: var(--verde-esmeralda);"></i>
+                            <p class="conclusion-text text-sm font-semibold">Tradición</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-home text-4xl mb-2" style="color: var(--terracota);"></i>
+                            <p class="conclusion-text text-sm font-semibold">Identidad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="patron-paisa py-8 text-center" style="background-color: var(--marron-oscuro);">
+        <div class="container mx-auto px-4">
+            <p class="text-white text-lg mb-4">
+                <i class="fas fa-mountain mr-2" style="color: var(--amarillo-vibrante);"></i>
+                "Arrieros somos y en el camino nos encontramos"
+                <i class="fas fa-mountain ml-2" style="color: var(--amarillo-vibrante);"></i>
+            </p>
+            <p class="text-gray-300 text-sm">
+                Una celebración digital de la cultura antioqueña • 11 de agosto • Día de la Antioqueñidad
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
